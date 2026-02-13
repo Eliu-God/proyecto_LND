@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="/estilos/formulario.css">
+</head>
+<body>
+<header>
+        <img src="/img/favicon.png" class="logo">
+        <h1>Campeones de League of Legends</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/campeones/aatrox/aatrox.html">Aatrox</a></li>
+            <li><a href="/campeones/nasus/nasus.html">Nasus</a></li>
+            <li><a href="/campeones/ahri/ahri.html">Ahri</a></li>
+            <li><a href="/campeones/miss/miss.html">Miss Fortune</a></li>
+            <li><a href="#">Contactanos</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <h2>Envíanos un mensaje</h2>
+
+        <div class="formulario">
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="motivo">Motivo de contacto</label>
+                <select id="motivo" name="motivo">
+                    <option value="seleccione"> Seleccione una opción</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="soporte">Soporte</option>
+                    <option value="informacion">Información</option>
+                </select>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <button type="enviar" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+
+        <div class="mapa">
+            <h2>Nuestra Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12989.123456789!2d-15.4467!3d28.1284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xabcdef1234567890!2sIES%20El%20Rinc%C3%B3n%2C%20Las%20Palmas%20de%20Gran%20Canaria!5e0!3m2!1ses!2ses!4v0000000000000" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+    </main>
+
+    <footer> &copy; 2026 - Proyecto de Eliu </footer>
+
+</body>
+
+</html>
