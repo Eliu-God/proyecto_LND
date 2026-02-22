@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+header {
+    background-color: #020617;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 60px;
+}
+
+nav {
+    background-color: #1e293b;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.menu a:hover {
+    background-color: #2563eb;
+    border-radius: 5px;
+}
+
+header {
+    background-color: #020617;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.menu-principal {
+    background-color: #1a1a1a;
+    padding: 10px 0;
+}
+
+.menu-principal ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-principal a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-principal a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 20px;
+}
+.aatrox {
+    padding: 60px 10%;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+.aatrox-contenido {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.aatrox-imagen img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.aatrox-info {
+    max-width: 600px;
+}
+
+.aatrox-info h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #c41212;
+}
+
+.aatrox-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.slider-container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+ul.slider {
+    list-style: none;
+    position: relative;
+    height: 500px; 
+}
+
+ul.slider li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+ul.slider li:target {
+    display: block;
+}
+
+ul.slider li:target:not(#pasiva) ~ #pasiva {
+    display: none;
+}
+.slider img {
+    width: 80px;
+    margin: 10px 0;
+}
+
+.slider p {
+    max-width: 600px;
+    margin: 0 auto 15px auto;
+}
+
+.slider video {
+    width: 380px;
+    max-width: 100%;
+}
+
+.slider-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .slider video {
+        width: 100%;
+    }
+}
+footer {
+    background-color: #020617;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
