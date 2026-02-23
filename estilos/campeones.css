@@ -80,35 +80,35 @@ h1 {
 main {
     padding: 40px 20px;
 }
-.aatrox {
+.champ {
     padding: 60px 10%;
     background-color: #0f0f0f;
     color: white;
 }
 
-.aatrox-contenido {
+.champ-contenido {
     display: flex;
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
 }
 
-.aatrox-imagen img {
+.champ-imagen img {
     width: 450px;
     border-radius: 10px;
 }
 
-.aatrox-info {
+.champ-info {
     max-width: 600px;
 }
 
-.aatrox-info h2 {
+.champ-info h2 {
     font-size: 32px;
     margin-bottom: 20px;
     color: #c41212;
 }
 
-.aatrox-info p {
+.champ-info p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -139,9 +139,6 @@ ul.slider li:target {
     display: block;
 }
 
-ul.slider li:target:not(#pasiva) ~ #pasiva {
-    display: none;
-}
 .slider img {
     width: 80px;
     margin: 10px 0;
