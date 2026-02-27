@@ -163,7 +163,7 @@ ul.slider li:target {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .slider video {
         width: 100%;
     }
