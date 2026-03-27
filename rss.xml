@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+
+    <title>Proyecto Campeones LoL - Diego Martinez</title>
+    <link>https://eliu-god.github.io/proyecto_LND/</link>
+    <description>Web de campeones de League of Legends con habilidades y contenido multimedia</description>
+    <language>es</language>
+
+    <item>
+      <title>Nuevo RSS: AÑADIDO</title>
+      <link>https://eliu-god.github.io/proyecto_LND/rss.xml</link>
+      <description>Se añade un rss a la página</description>
+      <pubDate>Fri, 27 Mar 2026 12:50:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Nuevo campeón: Miss Fortune</title>
+      <link>https://eliu-god.github.io/proyecto_LND/index.html</link>
+      <description>Se modifica el index.html para añadir el rss </description>
+      <pubDate>Fri, 27 Mar 2026 12:50:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>
